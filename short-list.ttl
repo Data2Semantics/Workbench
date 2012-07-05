@@ -1,0 +1,9 @@
+@prefix d2s: <http://aers.data2semantics.org/resource/> .
+
+
+d2s:shortList a d2s:ResourceList ;
+	d2s:cacheDirectory	"results/snapshots";
+	d2s:bioportalDirectory "results/bioportal";
+	d2s:annotationType	<http://www.w3.org/ns/openannotation/core/> ;
+	d2s:resource 	<http://cid.oxfordjournals.org/content/52/4/e56.full> .
+

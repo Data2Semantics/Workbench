@@ -1,0 +1,15 @@
+@prefix oa: <http://www.w3.org/ns/openannotation/core/> .
+@prefix oax: <http://www.w3.org/ns/openannotation/extension/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix d2s: <http://aers.data2semantics.org/resource/> .
+
+d2s:shortList a d2s:ResourceList ;
+	d2s:cacheDirectory "results/snapshots" ;
+	d2s:bioportalDirectory "results/bioportal" ;
+	d2s:annotationType <http://www.w3.org/ns/openannotation/core/> ;
+	d2s:resource <http://cid.oxfordjournals.org/content/52/4/e56.full> .
+
+<http://cid.oxfordjournals.org/content/52/4/e56.full> d2s:hasCache _:node171bupenjx1 .
+
+_:node171bupenjx1 d2s:cacheLocation "results\\snapshots\\2012-07-05T18-15-28/cid.oxfordjournals.org%2Fcontent%2F52%2F4%2Fe56.full.html"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	d2s:cacheTime "2012-07-05T18:15:28"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
